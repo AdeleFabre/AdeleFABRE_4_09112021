@@ -16,7 +16,7 @@ h2 {
 /* HEADER */
 
 header {
-    height : 80px;
+    height : 60px;
     margin : 20px;
     display: flex;
     justify-content: space-between;
@@ -941,16 +941,12 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/la-chouette-agence-web-design.jpg");
 }
 
 @media (max-width: 1024px) {
