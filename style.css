@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 32px;
+    color: #F3976C;
+    text-align: center;
+}
+
 h2 {
     font-family: "helvetica";
     font-weight: 400;
@@ -155,6 +163,66 @@ footer a, footer p {
 
 .reseaux__logos p {
     margin : 0px;
+}
+
+/* PAGE CONTACT */
+
+.intro {
+    width : 100%;
+    padding : 20px;
+    text-align: center;
+    color : white;
+    background:#F3976C;
+    
+}
+
+.formulaire {
+    width : 60%;
+    margin: auto;
+    padding : 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulaire input, .formulaire textarea {
+    border : 1px solid lightgrey;
+}
+
+.formulaire__identite {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulaire__bloc {
+    padding : 20px;
+}
+
+.formulaire__bloc--nom-mail {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.formulaire__bloc--nom-mail label {
+    margin: 0px;
+    padding-right : 10px;
+}
+
+.formulaire__bouton {
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire__bouton input {
+    background-color:#F3976C;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.formulaire__adresse {
+    text-align: center;
 }
 
 
