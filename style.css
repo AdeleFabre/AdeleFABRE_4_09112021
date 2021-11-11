@@ -114,31 +114,47 @@ header nav p {
 
 footer {
     background-color: #F3976C ;
-    color: white;
+    color: #303030;
     padding : 20px;
     margin: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 footer a, footer p {
-    color: white;
+    color: #303030;
 }
 
 .footer--text {
     padding-bottom : 10px;
 }
 
-.adresse, .reseaux, .partenaires {
-    width : 25%;
+.adresse {
+    width : 30%;
 }
 
 .reseaux {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.reseaux__logos {
+.reseaux__logos, .reseaux__logos a {
     display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.reseaux__logos a {
+    padding-right : 100px;
+}
+
+.reseaux__logos .fa {
+    padding-right : 15px;
+}
+
+.reseaux__logos p {
+    margin : 0px;
 }
 
 
