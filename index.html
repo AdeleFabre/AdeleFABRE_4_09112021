@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<!--<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css"> <!-- icones Services -->
@@ -35,7 +35,7 @@
 		</div>
 		<nav>
 			<p><a href="index.html">Accueil</a></p>
-			<p><a href="#bloc-4-portfolio">Réalisations</a></p>
+			<p><a href="#realisations">Réalisations</a></p>
 			<p><a href="page2.html">Contact</a></p>
 		</nav>
 	</header>
@@ -44,15 +44,11 @@
 	<main class="page-container">
 
 		<!-- PRESENTATION DE L'AGENCE -->
-		<section class="presentation bloc bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-			<div class="container bloc-lg">
-				<div class="presentation__container row tight-width-whitespace">
-					<div class="col-sm-12">
-						<h1> La chouette agence,<br>agence de web design à Lyon </h1>
-						<p>Notre entreprise vous accompagne dans vos petits et grands projets web,<br>en vous aidant à devenir attractifs et plus visibles sur Internet. </p>
-					</div>
+		<section class="bloc-img presentation">
+				<div class="bloc-img__container">
+					<h1> La chouette agence,<br>agence de web design à Lyon </h1>
+					<p>Notre entreprise vous accompagne dans vos petits et grands projets web,<br>en vous aidant à devenir attractifs et plus visibles sur Internet. </p>
 				</div>
-			</div>
 		</section>
 
 		<!-- SERVICES -->
@@ -83,85 +79,56 @@
 		</section>
 
 		<!-- APPROCHE -->
-		<section class="approche">
-			<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
-				<div class="container bloc-lg">
-					<div class="row tight-width-whitespace">
-						<div class="approche__container">
-							<h2>Notre approche</h2>
-							<p>Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.</p>
-							<p>Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites correctement structurés et agréables à la navigation, qui seront facilement trouvable sur les moteurs de recherche.</p>
-							<a class="bold-link" href="page2.html">Contactez notre équipe</a>
-						</div>
-					</div>
-				</div>
+		<section class="bloc-img approche">
+			<div class="bloc-img__container">
+				<h2>Notre approche</h2>
+				<p>Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.</p>
+				<p>Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites correctement structurés et agréables à la navigation, qui seront facilement trouvable sur les moteurs de recherche.</p>
+				<a href="page2.html">Contactez notre équipe</a>
 			</div>
-		</section>
+	</section>
 
 		<!-- REALISATIONS -->
-		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
-			<div class="container bloc-lg">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h2>Nos réalisations</h2>
-						<p>Découvrez ci-dessous les dernières réalisations conçues pour nos clients!</p>
-					</div>
+		<section class="realisations" id="realisations">
+			<div class="realisations__intro">
+				<h2>Nos réalisations</h2>
+				<p>Découvrez ci-dessous les dernières réalisations conçues pour nos clients!</p>
+			</div>
+			<div class="realisations__bloc">
+				<div class="realisations__projet">
+					<a href="#" data-lightbox="img/realisation1-refonte.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/realisation1-refonte.jpg" alt="Pile de magazines colorés" class="img-responsive portfolio-thumb" /></a>
+					<h3>Refonte d'un site web pour un journal local</h3>
+					<p>Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.</p>
 				</div>
-				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/realisation1-refonte.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/realisation1-refonte.jpg" alt="Pile de magazines colorés" class="img-responsive portfolio-thumb" /></a>
-						<h3 class="mg-md text-center">
-							Refonte d'un site web pour un journal local
-						</h3>
-						<p class="text-center">
-							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
-						</p>
-					</div>
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/realisation2-creation.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/realisation2-creation.jpg" class="img-responsive portfolio-thumb" alt="Séance de photographie" /></a>
-						<h3 class="mg-md text-center">
-							Création d'un site web pour photographes
-						</h3>
-						<p class="text-center">
-							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
-						</p>
-					</div>
+				<div class="realisations__projet">
+					<a href="#" data-lightbox="img/realisation3-photo.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/realisation3-photo.jpg" class="img-responsive portfolio-thumb" alt="Matériel de photographie"/></a>
+						<h3>Création d'un site internet pour un voyageur</h3>
+						<p>Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.</p>
 				</div>
-				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/realisation3-photo.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/realisation3-photo.jpg" class="img-responsive portfolio-thumb" alt="Matériel de photographie"/></a>
-						<h3 class="mg-md text-center">
-							Création d'un site internet pour un voyageur
-						</h3>
-						<p class="text-center">
-							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
-						</p>
-					</div>
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/realisation4-mariage.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/realisation4-mariage.jpg" class="img-responsive portfolio-thumb" alt="Session de travail sur ordinateur" /></a>
-						<h3 class="mg-md text-center">
-							Conception d'un site pour une agence de mariage
-						</h3>
-						<p class="text-center">
-							Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
-						</p>
-					</div>
+			</div>
+			<div class="realisations__bloc">
+				<div class="realisations__projet">
+					<a href="#" data-lightbox="img/realisation3-photo.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/realisation3-photo.jpg" class="img-responsive portfolio-thumb" alt="Matériel de photographie"/></a>
+						<h3>Création d'un site internet pour un voyageur</h3>
+						<p>Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.</p>
+				</div>
+				<div class="realisations__projet">
+					<a href="#" data-lightbox="img/realisation4-mariage.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/realisation4-mariage.jpg" class="img-responsive portfolio-thumb" alt="Session de travail sur ordinateur" /></a>
+						<h3>Conception d'un site pour une agence de mariage</h3>
+						<p>Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.</p>
 				</div>
 			</div>
 		</section>
 
 		<!-- CONTACT -->
-		<section class="contact bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
-				<div class="container bloc-lg">
-					<div class="contact__container row">
-						<h2 class="mg-md text-center tc-white">Prêt à (re)donner vie à votre projet ?</h2>
-						<button class="contact__bouton">Contactez notre équipe</button>
-						<div class="col-sm-12 text-center">
-							<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contactez notre équipe !</a>
-						</div>
-					</div>
-				</div>
-		</section>
+
+		<section class="bloc-contact">
+			<div class="bloc-contact__container">
+				<h2>Prêt à (re)donner vie à votre projet ?</h2>
+				<button class="contact__bouton">Contactez notre équipe</button>
+			</div>
+	</section>
+	
 	</main>
 
 	<!-- FOOTER -->
