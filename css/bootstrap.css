@@ -50,10 +50,6 @@ template {
     display: none
 }
 
-a {
-    background-color: transparent
-}
-
 a:active,
 a:hover {
     outline: 0
@@ -1403,11 +1399,6 @@ textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none
 }
 
 a:focus,
