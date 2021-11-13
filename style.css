@@ -35,16 +35,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.header__identity {
-    display: flex;
-    align-items: center;
+header img {
+    max-height: 40px;
+    padding-left : 30px;
+    
 }
-.header__identity--logo {
-    height: 70px;
-    width: 70px;
-    background-image : url("./img/logo-la-chouette-agence-web-design.png");
-    margin : 0px 20px 0px 0px;
-}
+
 .header__identity--name p {
     font-family: "helvetica";
     font-size: 20px;
@@ -108,6 +104,8 @@ header nav p {
     align-items: center;
     text-align: center;
 }
+
+
 
 .services__citation {
     width: 70%;
