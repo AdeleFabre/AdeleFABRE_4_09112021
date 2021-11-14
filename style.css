@@ -64,6 +64,12 @@ a:hover {
     color: #F3976C;
     cursor: pointer;
 }
+a:focus {
+    outline: 2px solid;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
 
 /* --------------- HEADER & MENU --------------- */
 header {
@@ -165,7 +171,7 @@ header nav p {
     font-size: 20px;
     font-weight: normal;
 }
-.approche__lien {
+.approche__lien a {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -183,17 +189,23 @@ header nav p {
     align-items: center;
     padding : 20px;
 }
+.realisations__intro h2 {
+    padding-bottom : 30px;
+}
 .realisations__bloc {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    width: 60%;
+    width: 40%;
+    padding: 20px 0px 20px 0px;
 }
 .realisations__projet {
+    max-width : 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -238,8 +250,11 @@ header nav p {
     font-weight: 400;
     margin-top : 20px;
 }
-
-
+button:hover {
+    cursor: pointer;
+    background-color : rgb(233, 173, 145);
+    box-shadow: 2px 2px 5px lightgrey;
+}
 
 
 /* --------------- FOOTER --------------- */
@@ -274,15 +289,21 @@ footer a, footer p {
 .reseaux__logos a {
     padding-right : 100px;
 }
+.reseaux__logos a:hover {
+    color: white;
+    text-decoration: none;
+}
 .reseaux__logos .fa {
     padding-right : 15px;
 }
 .reseaux__logos p {
     margin : 0px;
 }
-
 .reseaux__logos {
     padding-top : 8px;
+}
+.icon-md {
+    font-size: 30px!important;
 }
 
 /* --------------- PAGE CONTACT --------------- */
@@ -290,8 +311,10 @@ footer a, footer p {
     width : 100%;
     padding : 20px;
     text-align: center;
-    color : white;
-    background:#F3976C;
+    color : #333333;
+    background-color:#F3976C;
+    background-image: url(/img/texture-paper.png);
+    background-size: 280px 280px;
     
 }
 .formulaire {
@@ -301,6 +324,9 @@ footer a, footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+input {
+    width : 250px;
 }
 .formulaire input, .formulaire textarea {
     border : 1px solid lightgrey;
@@ -326,20 +352,26 @@ footer a, footer p {
     justify-content: center;
 }
 .formulaire__bouton input {
-    background-color:#F3976C;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    width : 250px;
+    background-color: #F3976C;
+    color: black;
+    border-radius : 20px;
+    border : none;
+    padding : 10px;
+    text-transform: uppercase;
+    font-family: "helvetica";
+    font-weight: 400;
+}
+.formulaire__bouton input:hover {
+    cursor: pointer;
+    background-color : rgb(233, 173, 145);
+    box-shadow: 2px 2px 5px lightgrey;
 }
 .formulaire__adresse {
     text-align: center;
 }
 .formulaire__bloc input:enabled {
     border: 1px solid lightgrey;
-    box-shadow: 0px 0px 0px 0px;
-}
-.formulaire__bloc input:focus {
-    border: 1px solid blue;
     box-shadow: 0px 0px 0px 0px;
 }
 .formulaire__bloc input:invalid {
@@ -349,11 +381,9 @@ footer a, footer p {
 
 
 
-
-
 /*----------------------------------------------*/
 
-.bloc {
+/*.bloc {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
@@ -795,10 +825,6 @@ nav .caret {
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
-
-.icon-md {
-    font-size: 30px!important;
 }
 
 .icon-lg {
