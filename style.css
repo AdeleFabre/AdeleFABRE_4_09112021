@@ -178,7 +178,6 @@ a:focus {
 @media (min-width:991px) {
     .bloc-img__container {
         width: 50%;
-        height: 300px;
     }
     .services__container {
         width: 80%;
