@@ -178,6 +178,7 @@ a:focus {
 @media (min-width:991px) {
     .bloc-img__container {
         width: 50%;
+        height: 300px;
     }
     .services__container {
         width: 80%;
@@ -233,7 +234,7 @@ a:focus {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 /* --------------- SERVICES --------------- */
