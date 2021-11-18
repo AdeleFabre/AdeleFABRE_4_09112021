@@ -32,7 +32,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">				
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo de La chouette agence, agence de web design à Lyon." height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -58,103 +58,57 @@
 
 	<!-- Texte d'introduction -->
 	<section class="intro">
-		<h1>Parlons web design !</h1>
-		<p>Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-		Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
-	</section>
-
-		<!-- bloc-6
-		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-			<div class="container bloc-lg">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text tc-white">
-							Parlons web design !
-						</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
-							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-						</p>
-					</div>
-				</div>
-			</div>
+		<div class="intro__container">
+			<h1>Parlons web design !</h1>
+			<p>Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+			Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
 		</div>
-	bloc-6 END -->
+		</section>
 
 	<!-- Formulaire -->
-	<section class="formulaire">
-		<form action="#" method="post">
-			<div class="formulaire__identite">
-				<div class="formulaire__bloc formulaire__bloc--nom-mail">
-					<label for="form_nom"><p class="formulaire__texte">Nom</p></label><input type="text" name="nom" id="form_nom">
-				</div>
-				<div class="formulaire__bloc formulaire__bloc--nom-mail">
-					<label for="form_mail"><p class="formulaire__texte">Adresse mail</p></label><input type="email" name="email" id="form_mail">
-				</div>
-			</div>
-			<div class="formulaire__bloc">
-				<label for="form_origin"><p class="formulaire__texte">Comment avez-vous connu notre agence ?</p></label><br><textarea name="origin" id="form_origin" cols="100" rows="10" placeholder="Ecrivez ici..."></textarea>
-			</div>
-			<div class="formulaire__bloc">
-				<label for="form_projet"><p class="formulaire__texte">Précisez-nous votre projet (ajoutez autant de détails que nécessaire) :</p></label><br><textarea name="projet" id="form_projet" cols="100" rows="10" placeholder="Ecrivez ici..."></textarea>
-			</div>
-			<div class="formulaire__bloc formulaire__bouton"> 
-				<input type="button" value="Envoyer">
-			</div>
-			<div class="formulaire__bloc formulaire__adresse">
-				<p>Vous pouvez également nous écrire directement à l'adresse suivante : contact@lachouetteagence.com.</p>
-			</div>
-			
-		</form>
-	</section>
-
-<!-- bloc-7
 	<div class="bloc bgc-white l-bloc" id="bloc-7">
-		<div class="container bloc-lg">
+		<div class="container container--form bloc-lg">
 			<div class="row">
 				<div class="col-sm-6">
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-							<label>
-								Nom
+							<label for="name">
+								Nom *
 							</label>
 							<input id="name" class="form-control" required />
 						</div>
 						<div class="form-group">
-							<label>
-								Adresse email
+							<label for="email">
+								Adresse email *
 							</label>
 							<input id="email" class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
-							<label>
-								Comment nous avez-vous connu ?
+							<label for="input_504">
+								Comment nous avez-vous connu ? *
 							</label>
-							<input class="form-control" type="email" required id="input_504" />
+							<textarea class="form-control" required id="input_504"></textarea>
 						</div>
 						<div class="form-group">
-							<label>
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							<label for="message">
+								Brief de votre projet (Ajoutez autant de détails que nécessaire) : *<br>
 							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
+
+						<br>
+						<p>Vous pouvez également nous écrire directement à l'adresse suivante : contact@lachouetteagence.com.</p>
 					</form>
-				</div>
-				<div class="col-sm-6">
-					<p>
-						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-bloc-7 END -->
 
 </main>
 
-<!-- FOOTER OK -->
+<!-- FOOTER -->
 <footer>
 	<div class="adresse">
 		<p class="footer--text"><strong>La chouette agence</strong><br></p>
