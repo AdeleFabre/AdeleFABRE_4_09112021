@@ -176,6 +176,9 @@ a:focus {
 
 /* Responsive Desktop */
 @media (min-width:991px) {
+    .presentation {
+        height: 450px;
+    }
     .bloc-img__container {
         width: 50%;
     }
