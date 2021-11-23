@@ -215,13 +215,25 @@ a:focus {
         max-width: 300px;
     }
     footer {
-        justify-content: space-between;
+        flex-direction : column;
+        align-items: center;
     }
     .adresse {
-        width: 30%;
+        width: 100%;
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom : 30px;
+    }
+    .footer-adresse {
+        text-align: center;
+    }
+    .reseaux {
+        width: 100%;
+        align-items: center;
     }
     .reseaux__logos {
-        flex-direction: column;
+        flex-flow: wrap;
         align-items: flex-start;
     }
     .intro__container {
@@ -272,13 +284,23 @@ a:focus {
         width: 40%;
     }
     footer {
-        justify-content: flex-start;
+        flex-direction : column;
+        align-items: center;
+    
     }
     .adresse {
         width: 40%;
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom : 30px;
+    }
+    .footer-adresse {
+        text-align: center;
     }
     .reseaux {
-        width: 50%;
+        width: 100%;
+        align-items: center;
     }
     .reseaux__logos {
         align-items: center;
@@ -1001,7 +1023,7 @@ footer a, footer p {
     justify-content: start;
 }
 .reseaux__logos a {
-    padding-right : 50px;
+    padding : 15px 50px 15px 0px;
     align-items: center;
 }
 .reseaux__logos a:hover {
@@ -1021,9 +1043,6 @@ footer a, footer p {
 }
 .reseaux__logos p:hover {
     text-decoration: underline;
-}
-.reseaux__logos {
-    padding-top : 8px;
 }
 .icon-md {
     font-size: 30px!important;
