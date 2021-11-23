@@ -1,3 +1,38 @@
+/* ----------- Icônes Services ------------- */
+
+@font-face {
+    font-family: et-line;
+    src: url(./fonts/et-line.eot);
+    src: url(./fonts/et-line.eot?#iefix) format('embedded-opentype'), url(./fonts/et-line.woff) format('woff'), url(./fonts/et-line.ttf) format('truetype'), url(./fonts/et-line.svg#et-line) format('svg');
+}
+.services__icone {
+    font-family: et-line;
+    speak : none;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    color : #364577;
+    border-color: #364577;
+    margin-bottom : 14px;
+    margin-top : 24px;
+    font-size : 60px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+.et-icon-browser:before {
+    content: "\e00c"
+}
+.et-icon-presentation:before {
+    content: "\e00e"
+}
+.et-icon-edit:before {
+    content: "\e01c"
+}
+
+
+/* ------------- Elements généraux ------------ */
 body {
     margin: 0;
     padding: 0;
@@ -69,6 +104,8 @@ a:focus {
     color: black;
     border-radius: 5px;
 }
+
+/* ------------- Versions Responsive ------------- */
 
 /* Responsive mobile */
 @media (max-width:768px) {
