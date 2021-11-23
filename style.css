@@ -37,6 +37,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    overflow-y:scroll !important;
 }
 section {
     padding: 30px 20px 30px 20px;
