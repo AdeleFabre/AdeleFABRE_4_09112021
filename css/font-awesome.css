@@ -26,6 +26,33 @@
     vertical-align: -15%
 }
 
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+.fa-facebook-official:before {
+    content: "\f230"
+}
+.fa-facebook-square:before {
+    content: "\f082"
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+
+
+
+/*
+
 .fa-2x {
     font-size: 2em
 }
@@ -710,9 +737,7 @@
     content: "\f081"
 }
 
-.fa-facebook-square:before {
-    content: "\f082"
-}
+
 
 .fa-camera-retro:before {
     content: "\f083"
@@ -799,14 +824,9 @@
     content: "\f098"
 }
 
-.fa-twitter:before {
-    content: "\f099"
-}
 
-.fa-facebook-f:before,
-.fa-facebook:before {
-    content: "\f09a"
-}
+
+
 
 .fa-github:before {
     content: "\f09b"
@@ -1575,9 +1595,7 @@
     content: "\f16c"
 }
 
-.fa-instagram:before {
-    content: "\f16d"
-}
+
 
 .fa-flickr:before {
     content: "\f16e"
@@ -1635,9 +1653,7 @@
     content: "\f17c"
 }
 
-.fa-dribbble:before {
-    content: "\f17d"
-}
+
 
 .fa-skype:before {
     content: "\f17e"
@@ -2324,9 +2340,7 @@
     content: "\f22d"
 }
 
-.fa-facebook-official:before {
-    content: "\f230"
-}
+
 
 .fa-pinterest-p:before {
     content: "\f231"
@@ -3041,4 +3055,4 @@
     margin: 0;
     overflow: visible;
     clip: auto
-}
+}*/
