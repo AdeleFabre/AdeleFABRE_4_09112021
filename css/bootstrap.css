@@ -227,6 +227,7 @@ th {
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
+/*
 @media print {
     *,
     :after,
@@ -1364,7 +1365,7 @@ th {
 
 .glyphicon-menu-up:before {
     content: "\e260"
-}
+}*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -1484,7 +1485,7 @@ hr {
 [role=button] {
     cursor: pointer
 }
-
+/*
 .h1,
 .h2,
 .h3,
@@ -1772,7 +1773,7 @@ a.bg-danger:hover {
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee
 }
-
+*/
 ol,
 ul {
     margin-top: 0;
@@ -1785,7 +1786,7 @@ ul ol,
 ul ul {
     margin-bottom: 0
 }
-
+/*
 .list-unstyled {
     padding-left: 0;
     list-style: none
@@ -1968,7 +1969,7 @@ pre code {
     max-height: 340px;
     overflow-y: scroll
 }
-
+*/
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -1976,30 +1977,31 @@ pre code {
     margin-left: auto;
 }
 
+/*
 @media (min-width:768px) {
     .container {
         width: 750px
     }
-}
+}*/
 
-@media (min-width:992px) {
+/*@media (min-width:992px) {
     .container {
         width: 970px
     }
-}
+}*/
 
 @media (min-width:1200px) {
     .container {
         width: 1170px
     }
 }
-
+/*
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
-}
+}*/
 
 .row {
     margin-right: -15px;
@@ -2038,7 +2040,6 @@ pre code {
 .col-sm-3,
 .col-sm-4,
 .col-sm-5,
-.col-sm-6,
 .col-sm-7,
 .col-sm-8,
 .col-sm-9,
@@ -2053,14 +2054,16 @@ pre code {
 .col-xs-6,
 .col-xs-7,
 .col-xs-8,
-.col-xs-9 {
+.col-xs-9
+.col-sm-6,
+ {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
 }
 
-.col-xs-1,
+/*.col-xs-1,
 .col-xs-10,
 .col-xs-11,
 .col-xs-12,
@@ -2277,7 +2280,7 @@ pre code {
 
 .col-xs-offset-0 {
     margin-left: 0
-}
+}*/
 
 @media (min-width:768px) {
     .col-sm-1,
@@ -2288,11 +2291,12 @@ pre code {
     .col-sm-3,
     .col-sm-4,
     .col-sm-5,
-    .col-sm-6,
     .col-sm-7,
     .col-sm-8,
-    .col-sm-9 {
-        float: left
+    .col-sm-9
+    .col-sm-6,
+    {
+        float: left;
     }
     .col-sm-12 {
         width: 100%
@@ -2449,6 +2453,7 @@ pre code {
     }
 }
 
+/*
 @media (min-width:992px) {
     .col-md-1,
     .col-md-10,
@@ -2787,7 +2792,7 @@ pre code {
     .col-lg-offset-0 {
         margin-left: 0
     }
-}
+}*/
 
 table {
     background-color: transparent
@@ -2804,6 +2809,7 @@ th {
     text-align: left
 }
 
+/*
 .table {
     width: 100%;
     max-width: 100%;
@@ -3057,7 +3063,8 @@ table th[class*=col-] {
         border-bottom: 0
     }
 }
-
+*/
+/*
 fieldset {
     min-width: 0;
     padding: 0;
@@ -3075,7 +3082,7 @@ legend {
     color: #333;
     border: 0;
     border-bottom: 1px solid #e5e5e5
-}
+}*/
 
 label {
     display: inline-block;
@@ -3219,6 +3226,7 @@ input[type=search] {
     margin-bottom: 15px
 }
 
+/*
 .checkbox,
 .radio {
     position: relative;
@@ -3301,7 +3309,7 @@ fieldset[disabled] .radio label {
 .form-control-static.input-sm {
     padding-right: 0;
     padding-left: 0
-}
+}*/
 
 .input-sm {
     height: 30px;
@@ -3427,7 +3435,7 @@ textarea.input-lg {
     height: 30px;
     line-height: 30px
 }
-
+/*
 .has-success .checkbox,
 .has-success .checkbox-inline,
 .has-success .control-label,
@@ -3540,7 +3548,7 @@ textarea.input-lg {
 .has-feedback label.sr-only~.form-control-feedback {
     top: 0
 }
-
+*/
 .help-block {
     display: block;
     margin-top: 5px;
@@ -5659,6 +5667,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #444
 }
 
+/*
 .breadcrumb {
     padding: 8px 15px;
     margin-bottom: 20px;
@@ -6020,7 +6029,7 @@ a.badge:hover {
     .jumbotron h1 {
         font-size: 63px
     }
-}
+}*/
 
 .thumbnail {
     display: block;
@@ -6051,7 +6060,7 @@ a.thumbnail:hover {
     padding: 9px;
     color: #333
 }
-
+/*
 .alert {
     padding: 15px;
     margin-bottom: 20px;
@@ -7025,7 +7034,7 @@ button.list-group-item-danger.active:hover {
     padding: 9px;
     border-radius: 3px
 }
-
+*/
 .close {
     float: right;
     font-size: 21px;
@@ -7053,6 +7062,7 @@ button.close {
     background: 0 0;
     border: 0
 }
+
 
 .modal-open {
     overflow: hidden

@@ -311,8 +311,8 @@ a:focus {
         width: 50%;
     }
     #bloc-7 {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
 }
 
@@ -372,7 +372,8 @@ a:focus {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -601,7 +602,7 @@ a:focus {
         margin-top: 30px;
     }
     form {
-        padding: 20px;
+        padding: 40px;
     }
     .close-lightbox {
         display: inline-block;

@@ -47,6 +47,30 @@
 .fa-facebook:before {
     content: "\f09a"
 }
+.fa-chevron-left:before {
+    content: "\f053"
+}
+.fa-chevron-right:before {
+    content: "\f054"
+}
+.fa-chevron-up:before {
+    content: "\f077"
+}
+.fa-chevron-down:before {
+    content: "\f078"
+}
+.fa-chevron-circle-left:before {
+    content: "\f137"
+}
+.fa-chevron-circle-right:before {
+    content: "\f138"
+}
+.fa-chevron-circle-up:before {
+    content: "\f139"
+}
+.fa-chevron-circle-down:before {
+    content: "\f13a"
+}
 
 
 
@@ -558,13 +582,7 @@
     content: "\f052"
 }
 
-.fa-chevron-left:before {
-    content: "\f053"
-}
 
-.fa-chevron-right:before {
-    content: "\f054"
-}
 
 .fa-plus-circle:before {
     content: "\f055"
@@ -696,13 +714,7 @@
     content: "\f076"
 }
 
-.fa-chevron-up:before {
-    content: "\f077"
-}
 
-.fa-chevron-down:before {
-    content: "\f078"
-}
 
 .fa-retweet:before {
     content: "\f079"
@@ -1378,21 +1390,7 @@
     content: "\f136"
 }
 
-.fa-chevron-circle-left:before {
-    content: "\f137"
-}
 
-.fa-chevron-circle-right:before {
-    content: "\f138"
-}
-
-.fa-chevron-circle-up:before {
-    content: "\f139"
-}
-
-.fa-chevron-circle-down:before {
-    content: "\f13a"
-}
 
 .fa-html5:before {
     content: "\f13b"
